@@ -32,6 +32,13 @@
     "engines": {
         "node":                           ">=6.0.0"
     },
-    "main": "./eslint.yaml"
+    "main": "./eslint.yaml",
+    "scripts": {
+        "prepublish":  "true",
+        "build":       "true",
+        "preversion":  "npm run prepublish",
+        "version":     "npm run build && git add -A",
+        "postversion": "git push && git push --tags && npm publish"
+    }
 }
 
