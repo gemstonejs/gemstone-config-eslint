@@ -1,44 +1,45 @@
 {
-    "name":        "gemstone-config-eslint",
-    "homepage":    "http://github.com/gemstonejs/gemstone-config-eslint",
-    "description": "ESLint Configuration for JavaScript files in Gemstone Technology Stack",
-    "version":     "0.9.1",
-    "license":     "Apache-2.0",
-    "author": {
-        "name":    "Gemstone Project",
-        "url":     "http://gemstonejs.com"
-    },
-    "keywords": [
-        "gemstone", "eslint", "config", "js"
-    ],
-    "repository": {
-        "type": "git",
-        "url":  "git://github.com/gemstonejs/gemstone-config-eslint.git"
-    },
-    "bugs": {
-        "url":  "http://github.com/gemstonejs/gemstone-config-eslint/issues"
-    },
-    "peerDependencies": {
-        "eslint":                         "~3.19.0",
-        "eslint-config-standard":         "~10.2.0",
-        "eslint-plugin-standard":         "~3.0.1",
-        "eslint-plugin-promise":          "~3.5.0",
-        "eslint-plugin-import":           "~2.2.0",
-        "eslint-plugin-node":             "~4.2.2",
-        "babel-eslint":                   "~7.2.1"
-    },
-    "dependencies" : {
-    },
-    "engines": {
-        "node":                           ">=6.0.0"
-    },
-    "main": "./eslint.yaml",
-    "scripts": {
-        "prepublish":  "true",
-        "build":       "true",
-        "preversion":  "npm run prepublish",
-        "version":     "npm run build && git add -A",
-        "postversion": "git push && git push --tags && npm publish"
-    }
+  "name": "gemstone-config-eslint",
+  "homepage": "http://github.com/gemstonejs/gemstone-config-eslint",
+  "description": "ESLint Configuration for JavaScript files in Gemstone Technology Stack",
+  "version": "0.9.2",
+  "license": "Apache-2.0",
+  "author": {
+    "name": "Gemstone Project",
+    "url": "http://gemstonejs.com"
+  },
+  "keywords": [
+    "gemstone",
+    "eslint",
+    "config",
+    "js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gemstonejs/gemstone-config-eslint.git"
+  },
+  "bugs": {
+    "url": "http://github.com/gemstonejs/gemstone-config-eslint/issues"
+  },
+  "peerDependencies": {
+    "eslint": "~3.19.0",
+    "eslint-config-standard": "~10.2.0",
+    "eslint-plugin-standard": "~3.0.1",
+    "eslint-plugin-promise": "~3.5.0",
+    "eslint-plugin-import": "~2.2.0",
+    "eslint-plugin-node": "~4.2.2",
+    "babel-eslint": "~7.2.1"
+  },
+  "dependencies": {},
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "main": "./eslint.yaml",
+  "scripts": {
+    "prepublish": "true",
+    "build": "true",
+    "preversion": "npm run prepublish",
+    "version": "npm run build && git add -A",
+    "postversion": "git push && git push --tags && npm publish"
+  }
 }
-
