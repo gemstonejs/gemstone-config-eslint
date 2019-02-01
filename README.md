@@ -18,6 +18,6 @@ This is [ESLint](http://eslint.org/) configuration for JavaScript files in the
 Copyright &amp; License
 -----------------------
 
-Copyright &copy; 2016-2018 [Gemstone Project](http://gemstonejs.com)<br/>
+Copyright &copy; 2016-2019 [Gemstone Project](http://gemstonejs.com)<br/>
 Licensed under [Apache License 2.0](https://spdx.org/licenses/Apache-2.0)
 
