@@ -47,4 +47,6 @@ rules:
     array-bracket-spacing:               off
     quote-props:                         off
     lines-between-class-members:         off
+    no-void:                             off
+    computed-property-spacing:           off
 
